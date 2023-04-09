@@ -1,0 +1,63 @@
+:root {
+    --nav-color: rgba(0, 0, 0, 0.3);
+    --btn-color: #8e7754;
+    --btn2-color: rgba(0, 0, 0, 0.7);
+    --main-color: #f8f8f8;
+    --foter-color: #403b38;
+    --two-color: #292624;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-main {
+    background-color: var(--nav-color);
+}
+
+.bg-btn1 {
+    background-color: var(--btn-color);
+}
+
+.bg-btn2 {
+    background-color: var(--btn2-color);
+}
+
+.bg-scond {
+    background-color: var(--main-color);
+}
+
+.bg-footer {
+    background-color: var(--foter-color);
+    background-image: url(../img/contact-details-map.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.bg-end {
+    background-color: var(--two-color);
+}
+
+img {
+    width: 100%;
+}
+
+#Home {
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0.4);
+}
